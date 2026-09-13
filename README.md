@@ -5,8 +5,8 @@ Blog pessoal de pehprado baseado no tema Tale, com interface em português.
 ## Publicar no GitHub Pages
 
 1. Crie um repositório público chamado `pehprado.github.io` na conta `pehprado`. Se ele já existir, confira seu conteúdo antes de enviar estes arquivos.
-2. Envie os arquivos deste projeto para a raiz da branch `main`, incluindo as pastas cujos nomes começam com `_`.
-3. Em Settings → Pages, selecione Deploy from a branch, branch `main` e pasta `/ (root)`, e salve.
+2. Envie os arquivos deste projeto para a raiz da branch `master`, incluindo as pastas cujos nomes começam com `_`.
+3. Em Settings → Pages, selecione Deploy from a branch, branch `master` e pasta `/ (root)`, e salve.
 4. Aguarde o build do GitHub Pages. O endereço esperado é https://pehprado.github.io/.
 
 ## Escrever uma nota
