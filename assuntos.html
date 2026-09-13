@@ -1,0 +1,14 @@
+---
+layout: post
+title: Assuntos
+permalink: /assuntos/
+---
+{% assign sorted_tags = site.tags | sort %}
+{% for tag in sorted_tags %}
+<section>
+  <h2>{{ tag[0] | escape }}</h2>
+  <ul>{% for post in tag[1] %}<li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>{% endfor %}</ul>
+</section>
+{% else %}
+<p>Os assuntos aparecerão aqui conforme as primeiras notas forem publicadas.</p>
+{% endfor %}
