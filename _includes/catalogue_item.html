@@ -1,0 +1,7 @@
+<a href="{{ post.url | relative_url }}" class="catalogue-item">
+  <div><time datetime="{{ post.date | date_to_xmlschema }}" class="catalogue-time">{{ post.date | date: '%d/%m/%Y' }}</time>
+    <h2 class="catalogue-title">{{ post.title | escape }}</h2>
+    <div class="catalogue-line"></div>
+    <p>{{ post.description | default: post.excerpt | strip_html | truncatewords: 45 }}</p>
+  </div>
+</a>
